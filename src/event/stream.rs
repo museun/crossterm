@@ -6,12 +6,10 @@ use std::{
     },
     thread,
     time::Duration,
-};
-
-use futures_util::{
-    stream::Stream,
     task::{Context, Poll},
 };
+
+use futures_lite::Stream;
 
 use crate::Result;
 
